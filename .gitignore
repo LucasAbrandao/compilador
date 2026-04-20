@@ -6,6 +6,7 @@ compiler
 
 # Build artifacts
 *.d
+tests/output/
 
 # Editor
 .vscode/settings.json

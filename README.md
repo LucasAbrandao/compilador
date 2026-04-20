@@ -217,6 +217,23 @@ diff -u saida.txt tests/expected/teste0.txt
 
 Se o `diff` nao mostrar nada, a saida bate exatamente com o esperado.
 
+### Rodando todos os testes automaticamente
+
+Se quiser compilar e validar todos os casos de uma vez no WSL:
+
+```bash
+bash scripts/run_all_tests.sh
+```
+
+O script:
+
+- roda `make` antes dos testes
+- executa todos os arquivos `tests/input/teste*.lang`
+- compara cada saida com `tests/expected`
+- salva um relatorio unico em `tests/output/report.txt`
+
+Se todos os testes passarem, o script termina com codigo `0`. Se algum falhar, ele termina com codigo diferente de `0`.
+
 ### Sequencia recomendada para entender o funcionamento
 
 Rode nesta ordem:
