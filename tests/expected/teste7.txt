@@ -1,0 +1,1 @@
+ERRO LÉXICO na linha 4: caractere inválido '.'

@@ -1,0 +1,22 @@
+# Binários
+compiler
+*.o
+*.out
+*.exe
+
+# Build artifacts
+*.d
+
+# Editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentação local
+docs/

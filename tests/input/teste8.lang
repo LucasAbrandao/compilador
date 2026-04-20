@@ -1,0 +1,6 @@
+class Travessao {
+  int valor;
+  {
+    valor := valor – 1;
+  }
+}

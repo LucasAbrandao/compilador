@@ -1,0 +1,1 @@
+ERRO LÉXICO na linha 2: comentário de bloco não fechado

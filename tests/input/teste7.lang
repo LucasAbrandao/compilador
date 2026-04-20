@@ -1,0 +1,6 @@
+class Ponto {
+  int valor;
+  {
+    valor := 109.;
+  }
+}

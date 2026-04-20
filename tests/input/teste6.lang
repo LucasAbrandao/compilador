@@ -1,0 +1,22 @@
+class Teste6 {
+  int altura, Altura, contador;
+  string mensagem;
+  {
+    altura := 1;
+    Altura := 2;
+    contador := 0;
+    mensagem := "inicio";
+    /** Comentário de bloco com ** no corpo **/
+    // Comentário de linha
+    if (Altura > altura) {
+      write("Altura maior");
+    }
+    else {
+      write("altura maior");
+    };
+    repeat {
+      contador := contador + 1;
+      write(contador);
+    } until (contador = 3);
+  }
+}

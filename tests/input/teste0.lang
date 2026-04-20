@@ -1,0 +1,7 @@
+class Baseline {
+  int x;
+  {
+    x := 1;
+    write(x);
+  }
+}
